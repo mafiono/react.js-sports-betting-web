@@ -1,0 +1,59 @@
+.payment-body {
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+.payment-body .payment-card {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;   
+}
+
+.payment-body .payment-card > div{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    color: #ffffff;
+}
+.payment-body .payment-card > div.top {
+    flex: 3;
+    height: 100%;  
+    padding: 20px;
+    justify-content: center;
+    /* align-self: center; */
+    flex-direction: column;
+    border-radius: 20px 20px 0 0 
+}
+.payment-body .payment-card > div.top.success {
+    background-color: #028947;   
+}
+.payment-body .payment-card > div.top .icon {
+    background-color: #ffffff;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    border-radius: 60px;   
+}
+.payment-body .payment-card > div.top .icon >span{
+    font-size: 40px;
+    display: block;
+}
+.payment-body .payment-card > div.top.failed {
+    background-color:crimson;   
+}
+.payment-body .payment-card > div.bottom {
+    background-color: #ffffff;
+    flex:1;
+    padding: 20px;
+    justify-content: center;
+    /* align-self: center; */
+    flex-direction: column;
+    border-radius: 0 0 20px 20px  
+}

@@ -1,0 +1,152 @@
+.big-games-overflow {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 100;
+}
+.big-game-background, .big-game-contain {
+    float: left;
+    width: 100%;
+    padding: 0 0 50px;
+    min-width: 980px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-size: cover!important;
+}
+.big-game-background {
+    padding: 38px 0 0;
+    background: none!important;
+    display: table;
+    height: 100%;
+    max-height: 100%;
+    position: absolute;
+}
+ .big-game-contain {
+    position: relative;
+    top: 0;
+    padding: 0;
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+    background-position-x: 50%;
+    background-position-y: 0;
+    background-size: cover!important;
+}
+.casual-game {
+    min-width: 980px;
+    margin: 0 auto;
+    display: table;
+    padding: 20px 0;
+}
+.casino-game-contain {
+    min-height: 300px;
+    width: 100%;
+    padding: 0;
+    display: table-cell;
+    margin: 0 auto;
+    text-align: center;
+    animation: popup-enter 400ms ease-in-out;
+}
+
+.flash-game-contain {
+    min-width: 300px;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    overflow: hidden;
+    min-height: 100px;
+}
+.flash-game-contain {
+    border: none;
+    border-radius: 20;
+    background: 0 0;
+    box-shadow: none;
+}
+.flash-game-contain {
+    padding: 0 40px 20px 0;
+}
+.big-game-control {
+    position: absolute;
+    width: 40px;
+    right: 0px;
+}
+.casino-game-contain .icon-delete, .casino-game-contain .icon-delete.closed-iframe-info, .casino-game-contain .icon-delete.favourite, .casino-game-contain .icon-delete.popup, .casino-game-contain .icon-delete.refresh {
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    float: none;
+    display: block;
+    margin-bottom: 2px;
+}
+.casino-game-contain .icon-delete {
+    text-indent: -9999em;
+    position: relative;
+    color:#fff;
+    background-color: rgba(0,0,0,.5);
+}
+.casino-game-contain .icon-delete a {
+    width: 40px;
+    height: 40px;
+    top: 0;
+    position: static;
+}
+.casino-game-contain .icon-delete a:before{
+    text-indent: 0;
+    position: absolute;
+    top:0;
+    right: 11px;
+}
+.casino-game-contain [class^="icon-cs-"]::before{
+    top: 10px !important;
+    font-size: 18px;
+}
+
+.casino-game-contain .icon-delete a {
+    z-index: 99;
+    display: block;
+}
+/* .iframe-tournament-sidebar-padding {
+    padding: 0 220px 0 0;
+} */
+@media screen and (max-width: 1366px){
+    .flash-game-contain iframe {
+        width: 720px;
+        height: 600px;
+    }
+}
+.flash-game-contain iframe {
+    transition: height 200ms,padding 200ms;
+    position: relative;
+    z-index: 5;
+    background: rgba(29,29,29,.7);
+    display: block;
+}
+.flash-game-contain iframe {
+    width: 1422.67px;
+    height: 842px;
+    border: none;
+}
+.provider-list .active,.category .active{
+    background-color: #08b981 !important;
+    color:#fff !important;
+}
+.provider-list.toggle-hide{
+    max-height: 0;
+    min-height: 0;
+    height: 0;
+}
+.img-loading{
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+}

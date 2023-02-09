@@ -1,0 +1,99 @@
+.bsm-BetslipStandardModule {
+    bottom: 30px;
+    overflow: hidden;
+}
+.bsm-BetslipStandardModule.bsm-BetslipStandardModule_Expanded {
+    z-index: 70;
+}
+.bss-BetslipStandardModule_Expanded .bss-StandardBetslip {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.bss-BetslipStandardModule_Expanded .bss-StandardBetslip {
+    background-color: #e4e4e4;
+    -webkit-transform: none;
+    transform: none;
+}
+.bss-BetslipStandardModule_Minimised .bss-StandardBetslip, .bss-BetslipStandardModule_Minimising .bss-StandardBetslip {
+    -webkit-transform: translate3d(0,100%,0) translate3d(0,calc(-55px - env(safe-area-inset-bottom)),0);
+    transform: translate3d(0,100%,0) translate3d(0,calc(-55px - env(safe-area-inset-bottom)),0);
+}
+.bsm-BetslipStandardModule {
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    pointer-events: none;
+    contain: layout;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 62;
+    -webkit-transition: bottom .2s;
+    transition: bottom .2s;
+}
+.bss-StandardBetslip {
+    width: 100%;
+    max-width: 450px;
+    height: unset !important;
+    margin: 0 auto;
+    -ms-touch-action: none;
+    touch-action: none;
+    pointer-events: auto;
+    position: absolute;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform .2s .01s;
+    transition: -webkit-transform .2s .01s;
+    transition: transform .2s .01s;
+    transition: transform .2s .01s,-webkit-transform .2s .01s;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.bsm-BetslipStandardModule_Overlay.bsm-BetslipStandardModule_OverlayShow {
+    cursor: pointer;
+    opacity: .4;
+}
+.bsm-BetslipStandardModule_Overlay {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+    opacity: 0;
+    z-index: 55;
+}
+.bss-DefaultContent_Close {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    width: 55px;
+    right: 0;
+    top: 0;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-left: 1px solid #cecece;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+}
+.bss-BetslipStandardModule_Expanded .bss-DefaultContent_Close {
+    display: block;
+}

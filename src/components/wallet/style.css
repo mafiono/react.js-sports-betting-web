@@ -1,0 +1,43 @@
+.conditions,.deposit-summary{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.conditions{
+    margin: 10px 0;
+}
+.conditions .cons{
+    display: flex;
+    flex-wrap: wrap;
+    flex:0 50%;
+    justify-content: flex-start;
+}
+.conditions .cons>div{
+    margin: 5px;
+}
+.deposit-summary{
+    width: 100%;
+    border-radius: 10px;
+    background-color: darkgreen;
+    padding: 8px 15px;
+    margin: 10px;
+}
+.deposit-summary>div{
+    display: flex;
+    flex-direction: row;
+    flex:1 100%;
+    justify-content: center;
+}
+.deposit-summary>div>div{
+    display: flex;
+    flex-direction: row;
+    flex:1 100%;
+    justify-content: space-between;
+    justify-items: center;
+    color: #fff;
+    font-size: 12px;
+    padding: 3px;
+}
+.deposit-summary>div>div:not(:first-child){
+    justify-content: flex-end;
+}

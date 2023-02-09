@@ -1,0 +1,49 @@
+{
+    "name": "corisbet-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "animate.css": "^4.1.1",
+        "axios": "^0.19.0",
+        "jquery": "^3.5.1",
+        "jquery-ui": "^1.12.1",
+        "layui-src": "^2.5.5",
+        "moment": "^2.26.0",
+        "moment-timezone": "^0.5.27",
+        "nuka-carousel": "^4.7.0",
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0",
+        "react-google-recaptcha": "^2.0.1",
+        "react-helmet": "^5.2.1",
+        "react-owl-carousel2": "^0.3.0",
+        "react-phone-input-2": "^2.13.8",
+        "react-redux": "^7.2.0",
+        "react-router-dom": "^5.1.2",
+        "react-scripts": "^3.4.3",
+        "react-spring": "^8.0.27",
+        "react-thunk": "^1.0.0",
+        "redux": "^4.0.5",
+        "redux-thunk": "^2.3.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

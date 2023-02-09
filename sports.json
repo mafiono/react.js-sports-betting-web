@@ -1,0 +1,308 @@
+{
+  "id": 1900001,
+  "alias": "Russia",
+  "name": "Russia",
+  "order": 9,
+  "competition": {
+    "17118": {
+      "id": 17118,
+      "favorite": true,
+      "teams_reversed": false,
+      "name": "NSFL Premier Group",
+      "order": 9051,
+      "favorite_order": null,
+      "favorite_source": 0,
+      "cloud_available": true,
+      "game": {
+        "17145088": {
+          "id": 17145088,
+          "markets_count": 76,
+          "not_in_sportsbook": 0,
+          "is_reversed": false,
+          "is_itf": true,
+          "start_ts": 1604394000,
+          "visible_in_prematch": 0,
+          "is_started": 1,
+          "is_live": 1,
+          "is_blocked": 0,
+          "is_neutral_venue": false,
+          "round": 8,
+          "team1_id": 356564,
+          "team2_id": 297813,
+          "game_number": 32879,
+          "text_info": "1 : 0, (1:0) 23`",
+          "is_stat_available": true,
+          "match_length": "80",
+          "type": 1,
+          "live_available": 1,
+          "season_id": 232832,
+          "scout_provider": 2,
+          "sport_alias": "Soccer",
+          "region_alias": "Russia",
+          "info": {
+            "current_game_state": "set1",
+            "current_game_time": "23",
+            "add_minutes": "0",
+            "score1": "1",
+            "score2": "0",
+            "pass_team": "none",
+            "shirt1_color": "000000",
+            "shirt2_color": "000000",
+            "short1_color": "000000",
+            "short2_color": "000000",
+            "field": 0
+          },
+          "stats": {
+            "goal": { "team1_value": 1, "team2_value": 0 },
+            "substitution": { "team1_value": 1, "team2_value": 0 },
+            "ballSafe": { "team1_value": 20, "team2_value": 24 },
+            "dangerous_attack": { "team1_value": 7, "team2_value": 11 },
+            "kick_off": { "team1_value": 1, "team2_value": 1 },
+            "goal_kick": { "team1_value": 3, "team2_value": 0 },
+            "free_kick": { "team1_value": 5, "team2_value": 4 },
+            "throw_in": { "team1_value": 7, "team2_value": 8 },
+            "shot_off_target": { "team1_value": 0, "team2_value": 3 },
+            "injury_break": { "team1_value": 1, "team2_value": 0 },
+            "attack": { "team1_value": 30, "team2_value": 26 },
+            "passes": { "team1_value": null, "team2_value": null },
+            "score_set1": { "team1_value": 1, "team2_value": 0 }
+          },
+          "team1_name": "KGTU Kaliningrad",
+          "team2_name": "SPbGUPTD St.-Peterburg",
+          "add_info_name": "2 Halves of 40 min",
+          "last_event": {
+            "time_utc": "03/11/2020 13:25:08 +04:00",
+            "time": 1604395508,
+            "current_minute": "23'",
+            "type_id": "21",
+            "side": "2",
+            "period_sequence": 1,
+            "event_value": 1
+          },
+          "live_events": [
+            {
+              "time_utc": "03/11/2020 13:22:29 +04:00",
+              "time": 1604395349,
+              "current_minute": "20'",
+              "type_id": "1",
+              "side": "1",
+              "period_sequence": 1,
+              "event_value": 1
+            },
+            {
+              "time_utc": "03/11/2020 13:07:59 +04:00",
+              "time": 1604394479,
+              "current_minute": "6'",
+              "type_id": "6",
+              "side": "1",
+              "period_sequence": 1,
+              "event_value": 1
+            }
+          ],
+          "market": {
+            "542110668": {
+              "id": 542110668,
+              "optimal": false,
+              "col_count": 3,
+              "mobile_col_count": 3,
+              "market_type": "MatchResult",
+              "type": "P1XP2",
+              "name_template": "Match Result",
+              "sequence": 0,
+              "point_sequence": 0,
+              "express_id": 1,
+              "cashout": 1,
+              "display_key": "WINNER",
+              "display_sub_key": "MATCH",
+              "available_for_betbuilder": true,
+              "display_color": "E5E3B3",
+              "group_id": 8,
+              "group_order": 1,
+              "name": "Match Result",
+              "group_name": "Match",
+              "order": 600000,
+              "event": {
+                "1732094535": {
+                  "order": 1,
+                  "id": 1732094535,
+                  "type_1": "X",
+                  "type": "X",
+                  "type_id": 5453,
+                  "original_order": 2,
+                  "name": "Draw",
+                  "price": 3.15
+                },
+                "1732094536": {
+                  "order": 0,
+                  "id": 1732094536,
+                  "type_1": "W1",
+                  "type": "P1",
+                  "type_id": 5452,
+                  "original_order": 1,
+                  "name": "W1",
+                  "price": 1.67
+                },
+                "1732094538": {
+                  "order": 2,
+                  "id": 1732094538,
+                  "type_1": "W2",
+                  "type": "P2",
+                  "type_id": 6524,
+                  "original_order": 3,
+                  "name": "W2",
+                  "price": 5.4
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "18273168": {
+      "id": 18273168,
+      "favorite": false,
+      "teams_reversed": false,
+      "name": "Liga Pro",
+      "order": 9124,
+      "favorite_order": null,
+      "favorite_source": 0,
+      "cloud_available": false,
+      "game": {
+        "17150081": {
+          "id": 17150081,
+          "markets_count": 13,
+          "not_in_sportsbook": 0,
+          "is_reversed": false,
+          "is_itf": false,
+          "start_ts": 1604394000,
+          "visible_in_prematch": 0,
+          "is_started": 1,
+          "is_live": 1,
+          "is_blocked": 0,
+          "is_neutral_venue": false,
+          "team1_id": 567074,
+          "team2_id": 561354,
+          "game_number": 17323,
+          "text_info": "0 : 2, (0:2); HT",
+          "is_stat_available": false,
+          "match_length": "40",
+          "type": 1,
+          "live_available": 1,
+          "scout_provider": 3,
+          "sport_alias": "Soccer",
+          "region_alias": "Russia",
+          "info": {
+            "add_info": "6x6",
+            "current_game_state": "Half Time",
+            "add_minutes": "0",
+            "score1": "0",
+            "score2": "2",
+            "pass_team": "none",
+            "shirt1_color": "000000",
+            "shirt2_color": "000000",
+            "short1_color": "000000",
+            "short2_color": "000000",
+            "field": 0
+          },
+          "stats": {
+            "goal": { "team1_value": 0, "team2_value": 2 },
+            "ballSafe": { "team1_value": 1, "team2_value": 4 },
+            "dangerous_attack": { "team1_value": 0, "team2_value": 2 },
+            "goal_kick": { "team1_value": 4, "team2_value": 0 },
+            "attack": { "team1_value": 3, "team2_value": 4 },
+            "passes": { "team1_value": null, "team2_value": null },
+            "score_set1": { "team1_value": 0, "team2_value": 2 }
+          },
+          "team1_name": "Beliye Rozy",
+          "team2_name": "Siniye Ptitsy",
+          "add_info_name": "2 Halves of 20 min",
+          "last_event": {
+            "time_utc": "03/11/2020 13:23:36 +04:00",
+            "time": 1604395416,
+            "current_minute": "21'",
+            "type_id": "10",
+            "side": "0",
+            "period_sequence": 2,
+            "event_value": 1
+          },
+          "live_events": [
+            {
+              "time_utc": "03/11/2020 13:08:11 +04:00",
+              "time": 1604394491,
+              "current_minute": "5'",
+              "type_id": "1",
+              "side": "2",
+              "period_sequence": 1,
+              "event_value": 1
+            },
+            {
+              "time_utc": "03/11/2020 13:18:59 +04:00",
+              "time": 1604395139,
+              "current_minute": "16'",
+              "type_id": "1",
+              "side": "2",
+              "period_sequence": 1,
+              "event_value": 1
+            }
+          ],
+          "market": {
+            "542105300": {
+              "id": 542105300,
+              "optimal": false,
+              "col_count": 3,
+              "mobile_col_count": 3,
+              "market_type": "MatchResult",
+              "type": "P1XP2",
+              "name_template": "Match Result",
+              "sequence": 0,
+              "point_sequence": 0,
+              "express_id": 1,
+              "cashout": 1,
+              "display_key": "WINNER",
+              "display_sub_key": "MATCH",
+              "available_for_betbuilder": true,
+              "display_color": "E5E3B3",
+              "group_id": 8,
+              "group_order": 1,
+              "name": "Match Result",
+              "group_name": "Match",
+              "order": 600000,
+              "event": {
+                "1732078675": {
+                  "order": 2,
+                  "id": 1732078675,
+                  "type_1": "W2",
+                  "type": "P2",
+                  "type_id": 6524,
+                  "original_order": 3,
+                  "name": "W2",
+                  "price": 1.15
+                },
+                "1732078677": {
+                  "order": 0,
+                  "id": 1732078677,
+                  "type_1": "W1",
+                  "type": "P1",
+                  "type_id": 5452,
+                  "original_order": 1,
+                  "name": "W1",
+                  "price": 12
+                },
+                "1732078678": {
+                  "order": 1,
+                  "id": 1732078678,
+                  "type_1": "X",
+                  "type": "X",
+                  "type_id": 5453,
+                  "original_order": 2,
+                  "name": "Draw",
+                  "price": 7
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
